@@ -14,13 +14,13 @@ public class Homework1 {
         //Создать из трех переменных единую строку,
         //Привести к правильному виду (Ниже) используя String.trim()
         //затроить (Можно вызвать тольку одну команду System.out.println())
-//        String HelloWorld = hi.trim() + " " + world.toLowerCase().trim() + newLine;
-//        System.out.println(HelloWorld.repeat(3));
-        //
         //Результат вывода на экран:
         //Hello world!
         //Hello world!
         //Hello world!
+
+//        String HelloWorld = hi.trim() + " " + world.toLowerCase().trim() + newLine;
+//        System.out.println(HelloWorld.repeat(3));
 
 
         //TODO Задача №2
@@ -51,7 +51,7 @@ public class Homework1 {
 //        System.out.println(abcde);
 
 
-
+// errrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
 
 
         //TODO Продвинутый уровень
