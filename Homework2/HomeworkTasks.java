@@ -173,27 +173,30 @@ public class HomeworkTasks {
         // "Ура я испортил водку!" и добавляет к себе в журнал количество испорченного товара.
         // У склада есть только одна позиция - Водка.
 
-//        Stock vodka = new Stock("Horoshaya Vodka", 500);
-//        System.out.println(vodka.getNameOfProduct()+ ": " +  vodka.getQuantity());
-//        vodka.destocking(500);
-//        vodka.setNameOfProduct("Lydshya Vodka");
-//        vodka.increaseInStocks(1000);
-//        System.out.println(vodka.getNameOfProduct()+ ": " +  vodka.getQuantity());
-//
-//        Employee Volodya = new Employee(1,"Volodya");
-//        Employee Grigorii = new Employee(2, "Grigorii");
-//        Employee Nikolay = new Employee(3, "Kolya");
-//        Nikolay.setName("Nikolay");
-//        vodka.destocking(10);
-//        Nikolay.increaseQuantitySpoiled(10);
-//        Volodya.increaseQuantitySpoiled(35);
-//        Grigorii.increaseQuantitySpoiled(120);
-//
-//
-//        System.out.println(Volodya.getEmployeeQuantitySpoiled());
-//        System.out.println(Grigorii.getEmployeeQuantitySpoiled());
-//        System.out.println(Nikolay.getEmployeeQuantitySpoiled());
-//        System.out.println(Employee.getQuantitySpoiled());
+        Stock vodka = new Stock("Horoshaya Vodka", 500);
+        System.out.println(vodka.getNameOfProduct()+ ": " +  vodka.getQuantity());
+        vodka.destocking(500);
+        vodka.setNameOfProduct("Lydshya Vodka");
+        vodka.increaseInStocks(1000);
+        System.out.println(vodka.getNameOfProduct()+ ": " +  vodka.getQuantity());
+
+        Employee Volodya = new Employee(1,"Volodya");
+        Employee Grigorii = new Employee(2, "Grigorii");
+        Employee Nikolay = new Employee(3, "Kolya");
+        Nikolay.setName("Nikolay");
+        vodka.destocking(10);
+        Nikolay.increaseQuantitySpoiled(10);
+        vodka.destocking(35);
+        Volodya.increaseQuantitySpoiled(35);
+        vodka.destocking(120);
+        Grigorii.increaseQuantitySpoiled(120);
+
+
+        System.out.println(Volodya.getEmployeeQuantitySpoiled());
+        System.out.println(Grigorii.getEmployeeQuantitySpoiled());
+        System.out.println(Nikolay.getEmployeeQuantitySpoiled());
+        System.out.println(Employee.getQuantitySpoiled());
+        System.out.println(vodka.getNameOfProduct()+ ": " +  vodka.getQuantity());
 
 
 
